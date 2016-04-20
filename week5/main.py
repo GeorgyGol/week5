@@ -14,7 +14,7 @@ if __name__ == '__main__':
     tr=ET.fromstring(data)
     cnt=tr.findall('.//count')
     s=0
-    
+# this is ubuntu version
     
     for c in cnt:
         s+=int(c.text)
