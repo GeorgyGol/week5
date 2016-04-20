@@ -15,7 +15,6 @@ if __name__ == '__main__':
     cnt=tr.findall('.//count')
     s=0
     
-    
     for c in cnt:
         s+=int(c.text)
     print ('Count:' + str(len(cnt)))
